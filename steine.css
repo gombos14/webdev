@@ -49,3 +49,7 @@ body {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+
+#pietre_decorative_din_creioane_cerate {
+    position: relative;
+}
