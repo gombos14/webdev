@@ -30,15 +30,21 @@ body {
 }
 
 .main {
-    margin-left: 440px; /* Same width as the sidebar + left position in px */
-    font-size: 28px; /* Increased text to enable scrolling */
+    margin-left: 440px;
+    font-size: 20px;
     padding: 0px 10px;
     margin-right: 10px;
+    line-height: 1.5;
+    margin-bottom: 130px;
 }
 
 .main > p {
     text-indent: 2em;
     text-align: justify;
+}
+
+.main > h2 {
+    text-align: center;
 }
 
 .main > img {
@@ -52,4 +58,25 @@ body {
 
 #pietre_decorative_din_creioane_cerate {
     position: relative;
+}
+
+#pictura_pe_pietre {
+    position: relative;
+}
+
+#colier_cu_medalion_piatra {
+    position: relative;
+}
+
+#colier_cu_medalion_piatra > ol >li {
+    margin: 0 0 50px 0;
+}
+
+figure {
+    display: inline-table;
+}
+
+figcaption {
+    font-size: 14px;
+    text-align: center;
 }
