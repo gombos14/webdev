@@ -4,7 +4,7 @@ html {
 
 body {
     font-family: "Baloo Tamma 2", sans-serif;
-  }
+}
 
 .sidenav {
     width: 430px;
@@ -15,7 +15,7 @@ body {
     background: #eee;
     overflow-x: hidden;
     padding: 8px 0;
-  }
+}
 
 .sidenav a {
     padding: 6px 8px 6px 16px;
@@ -79,4 +79,21 @@ figure {
 figcaption {
     font-size: 14px;
     text-align: center;
+}
+
+#piraten {
+    position: relative;
+}
+
+.dialog {
+    line-height: 1;
+    text-indent: 2em;
+}
+
+#rauber_auf_see {
+    position: relative;
+}
+
+#piratenproiect {
+    position: relative;
 }
