@@ -126,3 +126,16 @@ td > p {
     margin-left: auto;
     margin-right: auto;
 }
+
+img {
+    max-height: 100vh;
+    max-width: 100%;
+}
+
+#leaf {
+    list-style-image: url("leaf.png");
+}
+
+#bird {
+    list-style-image: url("bird.png");
+}
