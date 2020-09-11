@@ -73,11 +73,12 @@ body {
 }
 
 figure {
-    display: inline-table;
+    padding: 10px;
 }
 
+
 figcaption {
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -128,7 +129,7 @@ td > p {
 }
 
 img {
-    max-height: 100vh;
+    max-height: 100%;
     max-width: 100%;
 }
 
@@ -138,4 +139,20 @@ img {
 
 #bird {
     list-style-image: url("bird.png");
+}
+
+.rotate30 {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+.rotate330 {
+    -webkit-transform: rotate(330deg);
+    -moz-transform: rotate(330deg);
+    -o-transform: rotate(330deg);
+    -ms-transform: rotate(330deg);
+    transform: rotate(330deg);
 }
