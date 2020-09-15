@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -74,6 +78,7 @@ body {
 
 figure {
     padding: 10px;
+    max-width: 40%;
 }
 
 
@@ -155,4 +160,10 @@ img {
     -o-transform: rotate(330deg);
     -ms-transform: rotate(330deg);
     transform: rotate(330deg);
+}
+
+.figures {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
